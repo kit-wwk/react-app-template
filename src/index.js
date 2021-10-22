@@ -6,11 +6,12 @@ import './setup';
 
 import './app/scss/style.scss';
 
-//i18n.init();
+
+const APP_BASENAME = process.env.REACT_APP_BASENAME
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App basename={APP_BASENAME} />
   </React.StrictMode>,
   document.getElementById('root')
 );
