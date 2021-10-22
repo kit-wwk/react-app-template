@@ -1,0 +1,12 @@
+// Custom functions & mixins
+@import './core/functions';
+@import './core/mixins';
+
+// Bootstrap initializaton
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/utilities';
+
+// Custom pages variables
+@import './pages/variables';
